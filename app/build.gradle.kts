@@ -69,6 +69,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // ui
+    implementation(libs.haze.jetpack.compose)
+    implementation (libs.androidx.core.splashscreen)
+
     // network requests
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
